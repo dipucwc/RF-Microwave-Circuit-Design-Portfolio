@@ -8,7 +8,7 @@ This project demonstrates practical analog/RF IC design capability, including sc
 # Objective:
 The objective of this project was to design and verify a stable CMOS OTA suitable for analog and mixed-signal applications. The design goal was to realize a single-stage OTA with sufficient DC gain, unity-gain bandwidth in the tens of MHz range, stable closed-loop behaviour, and a physical layout that passes DRC/LVS verification.
 
-# The project focuses on:
+# Project focuses on:
 •	Transistor-level CMOS OTA design
 •	Bias-current generation
 •	Small-signal gain and phase analysis
