@@ -61,6 +61,6 @@ Examples:
 * The layout is stronger than a schematic-only project because DRC and LVS are clean.
 * The post-layout result confirms that extracted parasitics do not invalidate the intended design trend.
 
-## Important Note
+## Important Note:
 
 The OTA was not physically fabricated. Therefore, the results represent Cadence schematic simulation, layout verification, and post-layout validation, not measured silicon data.
