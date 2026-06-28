@@ -58,7 +58,7 @@ Final Technical Report and Result Interpretation
 | Technical documentation      | Report writing, result interpretation, traceability, and portfolio presentation                                  |
 
 # Repository Structure:
----
+```text
 01_ADS_RF_System_and_Amplifier_Design/
 │
 ├── README.md
@@ -89,7 +89,7 @@ Final Technical Report and Result Interpretation
 └── notes/
     ├── measurement_methodology.md
     └── result_traceability.md
-	---
+```
 # How ACPR and EVM Were Measured :
 # ACPR / ACLR: 
 
