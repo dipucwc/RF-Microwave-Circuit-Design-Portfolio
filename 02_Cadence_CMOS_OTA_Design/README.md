@@ -21,7 +21,7 @@ The objective of this project was to design and verify a stable CMOS OTA suitabl
 •	Post-layout parasitic-aware validation
 •	Measurement methodology for silicon validation
 
-## Repository Structure
+# Repository Structure:
 
 ```text
 02_Cadence_CMOS_OTA_Design/
@@ -63,8 +63,9 @@ The objective of this project was to design and verify a stable CMOS OTA suitabl
     └── result_traceability.md
 ```
 
-
 # Design Flow:
+
+```text
 Transistor-Level OTA Schematic
         ↓
 Bias-Current Generation Network
@@ -86,6 +87,8 @@ DRC and LVS Verification
 Post-Layout Simulation with Extracted Parasitics
         ↓
 Measurement Methodology and Silicon-Validation Plan
+```
+
 
 # Key Results :
 | Parameter              |              Result | Interpretation                                                      |
