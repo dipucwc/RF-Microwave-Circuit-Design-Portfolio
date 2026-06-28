@@ -89,6 +89,23 @@ Post-Layout Simulation with Extracted Parasitics
 Measurement Methodology and Silicon-Validation Plan
 ```
 
+## Design Flow
+
+```mermaid
+flowchart TD
+    A[Transistor-Level OTA Schematic] --> B[Bias-Current Generation Network]
+    B --> C[DC Operating-Point Verification]
+    C --> D[Small-Signal AC Gain and Phase Analysis]
+    D --> E[Unity-Gain Bandwidth and Phase-Margin Extraction]
+    E --> F[Large-Signal Slew-Rate and Settling Verification]
+    F --> G[Input Common-Mode Range and Output Swing Analysis]
+    G --> H[Physical Layout with Matching-Aware Placement]
+    H --> I[DRC and LVS Verification]
+    I --> J[Post-Layout Simulation with Extracted Parasitics]
+    J --> K[Measurement Methodology and Silicon-Validation Plan]
+```
+
+
 
 # Key Results :
 | Parameter              |              Result | Interpretation                                                      |
