@@ -90,6 +90,38 @@ Final Technical Report and Result Interpretation
     ├── measurement_methodology.md
     └── result_traceability.md
 ```
+
+## Repository Structure
+
+```text
+01_ADS_RF_System_and_Amplifier_Design/
+README.md
+docs/
+  RF_System_and_Amplifier_Design_ADS_Report.pdf
+figures/
+  acpr_evm/
+  receiver_budget/
+  spurious_ip3/
+  bias_setup/
+  s_parameters/
+  noise_stability/
+  impedance_matching/
+schematics/
+  screenshots/
+simulation_results/
+  acpr_evm/
+  link_budget/
+  ip3_toi/
+  s_parameters/
+  noise_figure/
+  matching/
+notes/
+  measurement_methodology.md
+  result_traceability.md
+```
+
+
+
 # How ACPR and EVM Were Measured :
 # ACPR / ACLR: 
 
