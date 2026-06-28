@@ -1,0 +1,47 @@
+notes/result_traceability.md:
+
+#Result Traceability:
+
+This project separates results into three categories so that the report remains technically clear and defensible.
+
+## 1. Cadence Marker / Plot Values
+
+These are values directly visible from Cadence simulation plots or annotated screenshots.
+
+Examples:
+
+* DC gain: approximately 24.85 dB
+* Unity-gain bandwidth: approximately 14.6 MHz
+* Phase at unity-gain frequency: approximately −106.7°
+* Phase margin: approximately 73°
+* Slew rate: approximately 15.7 V/µs
+* DRC: 0 violations
+* LVS: 0 mismatches
+
+## 2. Analytical / Hand-Calculated Values
+
+These are values derived from analog IC equations and operating-point interpretation.
+
+Examples:
+
+* Effective transconductance
+* Output resistance estimate
+* Effective load-capacitance estimate from bandwidth
+* Effective load-capacitance estimate from slew rate
+* Saturation-region checks
+* Dominant-pole interpretation
+
+## 3. Engineering Interpretations
+
+These are conclusions based on simulation results, circuit theory, and layout verification.
+
+Examples:
+
+* The OTA is stable for unity-gain feedback based on the measured phase margin.
+* The transient response is consistent with the AC stability result.
+* The layout is stronger than a schematic-only project because DRC and LVS are clean.
+* The post-layout result confirms that extracted parasitics do not invalidate the intended design trend.
+
+## Important Note
+
+The OTA was not physically fabricated. Therefore, the results represent Cadence schematic simulation, layout verification, and post-layout validation, not measured silicon data.
