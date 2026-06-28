@@ -93,6 +93,18 @@ flowchart TD
 | LVS                    |        0 mismatches | Layout matches schematic connectivity                               |
 | Post-layout validation | Meets design intent | Extracted-layout simulation confirms the expected performance trend |
 
+# Common-Mode Range and Output Swing:
+The OTA was characterized for input common-mode range and output swing to identify the valid operating region. This ensures that gain, bandwidth, and transient performance are interpreted only within the voltage range where the transistors remain correctly biased.
+
+# Layout, DRC, and LVS Verification:
+The OTA layout was implemented using matching-aware analog layout techniques, including symmetric placement, dummy devices, and careful routing. The design passed DRC with 0 violations and LVS with 0 mismatches, confirming both manufacturability and schematic-layout equivalence.
+
+# Post-Layout Validation:
+Post-layout simulation was performed using the extracted layout netlist to check the effect of parasitic resistance and capacitance. The extracted simulation confirmed that the layout parasitics did not invalidate the intended gain, bandwidth, stability, and transient performance trend.
+
+# Measurement Methodology:
+Although the OTA was not fabricated, the report maps each simulated result to a practical bench-measurement method. AC gain and phase can be validated using a frequency-response setup, DC bias using an SMU, slew and settling using an oscilloscope, and noise/linearity using spectrum-analysis-based methods
+
 # Skills Demonstrated: 
 This project demonstrates practical capability in:
 •	CMOS analog IC design
