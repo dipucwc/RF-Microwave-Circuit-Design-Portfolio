@@ -173,19 +173,25 @@ The final matching-network section compares RF performance before and after matc
 
 
 # Skills Demonstrated: 
-This project demonstrates the ability to:
-•	Build a complete RF system and amplifier simulation flow in Keysight ADS
-•	Analyze transmitter linearity using ACPR/ACLR and EVM
-•	Evaluate receiver sensitivity using link-budget and Friis noise cascade methods
-•	Analyze spurious products and intermodulation behavior
-•	Extract and interpret IIP3/OIP3 from two-tone simulations
-•	Select and verify transistor biasing for RF circuit simulation
-•	Use S-parameters for gain, return loss, reverse isolation, and model verification
-•	Evaluate noise figure, optimum source match, and stability
-•	Apply Rollett stability methodology
-•	Interpret Smith charts and design L-C matching networks
-•	Compare RF performance before and after matching
-•	Prepare traceable, technically defensible RF documentation
+This project demonstrates the following RF and microwave engineering skills:
+•	Keysight ADS RF system simulation
+•	ACPR / ACLR analysis
+•	EVM and constellation interpretation
+•	Receiver link-budget analysis
+•	Friis noise-figure cascade calculation
+•	Spurious-response analysis
+•	Two-tone IP3 / TOI extraction
+•	RF transistor biasing
+•	S-parameter model verification
+•	Smith chart interpretation
+•	Noise figure and NFmin analysis
+•	Stability analysis
+•	Input/output impedance matching
+•	L-C matching network synthesis
+•	RF measurement methodology
+•	VNA, spectrum analyzer, VSA, noise-figure analyzer, and SMU measurement mapping
+
+
 
 # Project Status:
 Status: Completed
