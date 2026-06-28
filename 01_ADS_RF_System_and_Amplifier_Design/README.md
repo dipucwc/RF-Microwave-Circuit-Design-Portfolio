@@ -130,5 +130,5 @@ Main Focus: RF system analysis, amplifier simulation, linearity, noise, stabilit
 
 # Author:
 Md Moklesur Rahman
-RF / Wireless / System Specification Engineer
-LinkedIn: linkedin.com/in/md-moklesur-rahman-65a63962
+|RF / Wireless / System Specification Engineer
+|LinkedIn: linkedin.com/in/md-moklesur-rahman-65a63962
