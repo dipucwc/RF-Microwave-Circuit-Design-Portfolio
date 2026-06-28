@@ -231,7 +231,7 @@ Input network:  Cin ≈ 30 pF, Lin ≈ 4 nH
 Output network: Lout ≈ 16 nH, Cout ≈ 2 pF
 This step demonstrates practical RF matching-network design using ADS and Smith chart methods.
 
-# 14. Measurement Methodology and Bench Correspondence:
+# Measurement Methodology and Bench Correspondence:
 
 Each simulated analysis in this project has a corresponding RF laboratory measurement method.
 | Simulated Analysis             | Bench Instrument                                                             | Measurement Technique                                                                                  |
