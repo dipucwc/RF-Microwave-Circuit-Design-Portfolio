@@ -24,7 +24,7 @@ The objective of this project was to design and verify a stable CMOS OTA suitabl
 # Repository Structure: 
 
 
-Cadence_CMOS_OTA_Design/
+_Cadence_CMOS_OTA_Design/
 │
 ├── README.md
 │
