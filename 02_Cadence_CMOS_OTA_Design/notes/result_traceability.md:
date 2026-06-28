@@ -5,14 +5,21 @@ notes/result_traceability.md:
 Although this CMOS OTA project was completed at the simulation, layout, DRC/LVS, and post-layout verification stage, each simulated analysis has a direct bench-measurement counterpart if the design is fabricated.
 
 
-
 # Calibration and De-Embedding:
 
 For high-frequency, on-wafer, or fixture-based measurements, SOLT or TRL calibration can be used to move the reference plane to the device terminals. Pad, probe, fixture, and interconnect parasitics should be removed using open/short or thru de-embedding structures.
 Since an OTA is a high-impedance analog block, direct 50 Ω loading may disturb the measurement. A fabricated OTA should therefore be measured using a suitable buffer, high-impedance probe, or dedicated test structure.
 
+| Simulated Analysis                 | Bench Instrument                                                          | Measurement Method                                                              |
+| ---------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| AC gain, bandwidth, and phase      | Frequency-response analyzer / network analyzer / oscilloscope-based setup | Small-signal sweep to extract gain, bandwidth, and phase response               |
+| DC operating point                 | SMU / DC source-meter / precision multimeter                              | Bias current, node voltage, (V_{GS}), (V_{DS}), and supply-current verification |
+| Slew rate and settling             | Digital oscilloscope                                                      | Step-response measurement, (dV/dt), settling time, and overshoot check          |
+| Common-mode range and output swing | SMU + oscilloscope                                                        | DC sweep to identify valid input/output operating range                         |
+| Linearity                          | Signal generator + spectrum analyzer                                      | Harmonic distortion, two-tone IM3 products, and IP3 estimation                  |
+| Noise                              | Spectrum analyzer + low-noise preamplifier                                | Output-noise spectral-density measurement and input-referred noise calculation  |
 
-#Result Traceability:
+# Result Traceability:
 
 This project separates results into three categories so that the report remains technically clear and defensible.
 
