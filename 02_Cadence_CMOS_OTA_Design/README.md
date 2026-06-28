@@ -85,18 +85,17 @@ Post-Layout Simulation with Extracted Parasitics
         ↓
 Measurement Methodology and Silicon-Validation Plan
 
-# Key Results
-Parameter	Result	Interpretation
-DC gain	≈ 24.85 dB	Open-loop low-frequency gain
-Unity-gain bandwidth	≈ 14.6 MHz	Frequency where gain crosses 0 dB
-Phase at unity gain	≈ −106.7°	Phase marker at unity-gain frequency
-Phase margin	≈ 73°	Stable unity-gain feedback behaviour
-Slew rate	≈ 15.7 V/µs	Large-signal rising-edge slope
-DRC	0 violations	Layout satisfies design-rule checks
-LVS	0 mismatches	Layout matches schematic connectivity
-Post-layout validation	Meets design intent	Extracted-layout simulation confirms performance trend
-
-
+# Key Results :
+| Parameter              |              Result | Interpretation                                                      |
+| ---------------------- | ------------------: | ------------------------------------------------------------------- |
+| DC gain                |          ≈ 24.85 dB | Open-loop low-frequency gain                                        |
+| Unity-gain bandwidth   |          ≈ 14.6 MHz | Frequency where the open-loop gain crosses 0 dB                     |
+| Phase at unity gain    |           ≈ −106.7° | Phase value at the unity-gain frequency                             |
+| Phase margin           |               ≈ 73° | Indicates stable unity-gain feedback behaviour                      |
+| Slew rate              |         ≈ 15.7 V/µs | Large-signal rising-edge slope from transient response              |
+| DRC                    |        0 violations | Layout satisfies design-rule checks                                 |
+| LVS                    |        0 mismatches | Layout matches schematic connectivity                               |
+| Post-layout validation | Meets design intent | Extracted-layout simulation confirms the expected performance trend |
 
 # Skills Demonstrated: 
 This project demonstrates practical capability in:
