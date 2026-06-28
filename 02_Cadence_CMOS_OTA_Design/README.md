@@ -239,52 +239,6 @@ Although this project was completed at the simulation and layout stage and the O
 
 This measurement plan connects Cadence simulation results to real silicon-validation methodology.
 
----
-
-## Skills Demonstrated:
-
-This project demonstrates practical capability in:
-
-* CMOS analog IC design
-* OTA architecture and current-mirror design
-* Transistor biasing and operating-point analysis
-* Small-signal gain and bandwidth analysis
-* Phase-margin and stability interpretation
-* Slew-rate and settling-time verification
-* Common-mode range and output swing characterization
-* Matching-aware physical layout
-* Dummy-device usage and layout symmetry
-* DRC/LVS verification
-* Post-layout parasitic-aware validation
-* Technical report writing and result interpretation
-* Measurement-aware analog/RF validation planning
-
----
-
-# Key Results :
-| Parameter              |              Result | Interpretation                                                      |
-| ---------------------- | ------------------: | ------------------------------------------------------------------- |
-| DC gain                |          ≈ 24.85 dB | Open-loop low-frequency gain                                        |
-| Unity-gain bandwidth   |          ≈ 14.6 MHz | Frequency where the open-loop gain crosses 0 dB                     |
-| Phase at unity gain    |           ≈ −106.7° | Phase value at the unity-gain frequency                             |
-| Phase margin           |               ≈ 73° | Indicates stable unity-gain feedback behaviour                      |
-| Slew rate              |         ≈ 15.7 V/µs | Large-signal rising-edge slope from transient response              |
-| DRC                    |        0 violations | Layout satisfies design-rule checks                                 |
-| LVS                    |        0 mismatches | Layout matches schematic connectivity                               |
-| Post-layout validation | Meets design intent | Extracted-layout simulation confirms the expected performance trend |
-
-# Common-Mode Range and Output Swing:
-The OTA was characterized for input common-mode range and output swing to identify the valid operating region. This ensures that gain, bandwidth, and transient performance are interpreted only within the voltage range where the transistors remain correctly biased.
-
-# Layout, DRC, and LVS Verification:
-The OTA layout was implemented using matching-aware analog layout techniques, including symmetric placement, dummy devices, and careful routing. The design passed DRC with 0 violations and LVS with 0 mismatches, confirming both manufacturability and schematic-layout equivalence.
-
-# Post-Layout Validation:
-Post-layout simulation was performed using the extracted layout netlist to check the effect of parasitic resistance and capacitance. The extracted simulation confirmed that the layout parasitics did not invalidate the intended gain, bandwidth, stability, and transient performance trend.
-
-# Measurement Methodology:
-Although the OTA was not fabricated, the report maps each simulated result to a practical bench-measurement method. AC gain and phase can be validated using a frequency-response setup, DC bias using an SMU, slew and settling using an oscilloscope, and noise/linearity using spectrum-analysis-based methods
-
 # Result Traceability:
 This project separates results into three categories so that the report remains technically clear and defensible.
  Cadence Marker / Plot Values
@@ -316,24 +270,29 @@ Examples:
 •	The layout is stronger than a schematic-only project because DRC and LVS are clean.
 •	The post-layout result confirms that extracted parasitics do not invalidate the intended design trend.
 
+---
+## Skills Demonstrated:
+
+This project demonstrates practical capability in:
+
+* CMOS analog IC design
+* OTA architecture and current-mirror design
+* Transistor biasing and operating-point analysis
+* Small-signal gain and bandwidth analysis
+* Phase-margin and stability interpretation
+* Slew-rate and settling-time verification
+* Common-mode range and output swing characterization
+* Matching-aware physical layout
+* Dummy-device usage and layout symmetry
+* DRC/LVS verification
+* Post-layout parasitic-aware validation
+* Technical report writing and result interpretation
+* Measurement-aware analog/RF validation planning
+
+---
+
 # Important Note:
 The OTA was not physically fabricated. Therefore, the results represent Cadence schematic simulation, layout verification, and post-layout validation, not measured silicon data.
-
-# Skills Demonstrated: 
-This project demonstrates practical capability in:
-•	CMOS analog IC design
-•	OTA architecture and current-mirror design
-•	Transistor biasing and operating-point analysis
-•	Small-signal gain and bandwidth analysis
-•	Phase-margin and stability interpretation
-•	Slew-rate and settling-time verification
-•	Common-mode range and output swing characterization
-•	Matching-aware physical layout
-•	Dummy-device usage and layout symmetry
-•	DRC/LVS verification
-•	Post-layout parasitic-aware validation
-•	Technical report writing and result interpretation
-•	Measurement-aware analog/RF validation planning
 
 # Project Status:
 Status: Completed
