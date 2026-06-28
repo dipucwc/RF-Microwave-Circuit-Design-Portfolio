@@ -138,7 +138,6 @@ The final matching-network section compares RF performance before and after matc
 
 # Skills Demonstrated: 
 This project demonstrates the following RF and microwave engineering skills:
-```text
 •	Keysight ADS RF system simulation
 •	ACPR / ACLR analysis
 •	EVM and constellation interpretation
@@ -155,7 +154,7 @@ This project demonstrates the following RF and microwave engineering skills:
 •	L-C matching network synthesis
 •	RF measurement methodology
 •	VNA, spectrum analyzer, VSA, noise-figure analyzer, and SMU measurement mapping
-```
+
 # Project Status:
 Status: Completed
 Tool: Keysight Advanced Design System
