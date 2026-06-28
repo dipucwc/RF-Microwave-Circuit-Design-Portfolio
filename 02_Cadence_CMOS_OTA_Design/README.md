@@ -65,32 +65,6 @@ The objective of this project was to design and verify a stable CMOS OTA suitabl
 
 # Design Flow:
 
-```text
-Transistor-Level OTA Schematic
-        ↓
-Bias-Current Generation Network
-        ↓
-DC Operating-Point Verification
-        ↓
-Small-Signal AC Gain and Phase Analysis
-        ↓
-Unity-Gain Bandwidth and Phase-Margin Extraction
-        ↓
-Large-Signal Slew-Rate and Settling Verification
-        ↓
-Input Common-Mode Range and Output Swing Analysis
-        ↓
-Physical Layout with Matching-Aware Placement
-        ↓
-DRC and LVS Verification
-        ↓
-Post-Layout Simulation with Extracted Parasitics
-        ↓
-Measurement Methodology and Silicon-Validation Plan
-```
-
-## Design Flow
-
 ```mermaid
 flowchart TD
     A[Transistor-Level OTA Schematic] --> B[Bias-Current Generation Network]
