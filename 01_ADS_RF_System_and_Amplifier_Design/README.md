@@ -63,30 +63,50 @@ Final Technical Report and Result Interpretation
 
 ```text
 01_ADS_RF_System_and_Amplifier_Design/
-README.md
-docs/
-  RF_System_and_Amplifier_Design_ADS_Report.pdf
-figures/
-  acpr_evm/
-  receiver_budget/
-  spurious_ip3/
-  bias_setup/
-  s_parameters/
-  noise_stability/
-  impedance_matching/
-schematics/
-  screenshots/
-simulation_results/
-  acpr_evm/
-  link_budget/
-  ip3_toi/
-  s_parameters/
-  noise_figure/
-  matching/
-notes/
-  measurement_methodology.md
-  result_traceability.md
+│
+├── README.md
+│
+├── docs/
+│   └── RF_System_and_Amplifier_Design_ADS_Report.pdf
+│
+├── figures/
+│   ├── acpr_evm/
+│   ├── receiver_budget/
+│   ├── spurious_ip3/
+│   ├── bias_setup/
+│   ├── s_parameters/
+│   ├── noise_stability/
+│   └── impedance_matching/
+│
+├── schematics/
+│   └── screenshots/
+│
+├── simulation_results/
+│   ├── acpr_evm/
+│   ├── link_budget/
+│   ├── ip3_toi/
+│   ├── s_parameters/
+│   ├── noise_figure/
+│   └── matching/
+│
+└── notes/
+    ├── measurement_methodology.md
+    └── result_traceability.md
 ```
+##  Key Results:
+
+| Design Area           | Method / Metric                       | Result / Outcome                                                                       |
+| --------------------- | ------------------------------------- | -------------------------------------------------------------------------------------- |
+| Transmitter linearity | ACPR / ACLR using π/4-DQPSK source    | Adjacent-channel regrowth approximately 50–60 dBc below the main channel               |
+| Signal quality        | EVM and constellation analysis        | Peak EVM approximately 0.011 normalized                                                |
+| Receiver chain        | Cascaded RF link budget               | Approximately 76.1 dB cascaded gain and approximately 4.2 dB ADS-reported noise figure |
+| Noise cross-check     | Friis cascade calculation             | Hand calculation gives approximately 3.7 dB cascaded noise figure                      |
+| Interference analysis | Spurious-response mapping             | Low-order mixing products identified for receiver frequency planning                   |
+| Linearity             | Two-tone IP3 / TOI analysis           | OIP3 approximately 21.8 dBm and IIP3 approximately −25.7 dBm                           |
+| Bias design           | DC operating-point setup              | Bias point established before S-parameter, noise, and matching analysis                |
+| Model verification    | S-parameter comparison                | Device model checked against reference S-parameter behavior                            |
+| LNA analysis          | Noise figure and stability            | (NF_{\min}) approximately 1.74 dB near 1.86 GHz                                        |
+| Matching              | Smith chart and L-C network synthesis | Input/output matching network synthesized                                              |
 
 
 # How ACPR and EVM Were Measured :
