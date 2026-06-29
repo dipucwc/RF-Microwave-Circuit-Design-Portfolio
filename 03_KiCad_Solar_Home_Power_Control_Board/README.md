@@ -219,28 +219,30 @@ Before any real-world deployment, the design would require:
 •	Battery chemistry-specific charge protection
 
 # Skills Demonstrated:
+
 This project demonstrates the following skills:
-•	KiCad schematic design
-•	Hierarchical hardware design
-•	ATmega328P embedded control-board design
-•	Relay-driver design
-•	Transistor saturation analysis
-•	Flyback diode protection
-•	Solar/battery power-path design
-•	LM317 adjustable regulator design
-•	Rectifier and reservoir capacitor sizing
-•	Ripple-voltage calculation
-•	Thermal dissipation analysis
-•	Constant-voltage float-charge concept
-•	NTC inrush-limiting calculation
-•	Optocoupler feedback interpretation
-•	SMPS front-end design awareness
-•	RC snubber concept
-•	PCB placement and routing
-•	IPC-2221 trace-width estimation
-•	Creepage, clearance, and EMC-aware layout
-•	KiCad 3D mechanical review
-•	Bench-verification planning using oscilloscope measurements
+
+* KiCad schematic design
+* Hierarchical hardware design
+* ATmega328P embedded control-board design
+* Relay-driver design
+* Transistor saturation analysis
+* Flyback diode protection
+* Solar/battery power-path design
+* LM317 adjustable regulator design
+* Rectifier and reservoir capacitor sizing
+* Ripple-voltage calculation
+* Thermal dissipation analysis
+* Constant-voltage float-charge concept
+* NTC inrush-limiting calculation
+* Optocoupler feedback interpretation
+* SMPS front-end design awareness
+* RC snubber concept
+* PCB placement and routing
+* IPC-2221 trace-width estimation
+* Creepage, clearance, and EMC-aware layout
+* KiCad 3D mechanical review
+* Bench-verification planning using oscilloscope measurements
 
 # Project Status:
 Status: Completed portfolio project.
