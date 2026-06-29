@@ -37,30 +37,49 @@ Fabrication Output Preparation
         ↓
 Bench-Verification Methodology
 
+## Repository Structure
 
-# Repository Structure:
-03_KiCad_Solar_Home_Power_Control_Board/
-README.md
-docs/
-  Solar_Home_Power_Control_Board_KiCad_Report.pdf
-figures/
-  schematic/
-  pcb_layout/
-  routing/
-  three_d_view/
-  bench_measurement/
-schematics/
-  screenshots/
-pcb/
-  layout_screenshots/
-  three_d_render/
-fabrication/
-  gerber_output/
-  drill_files/
-  bom/
-notes/
-  measurement_methodology.md
-  result_traceability.md
+* `README.md`
+  Main project overview, key results, design flow, and skills demonstrated.
+
+* `docs/`
+  Full technical report in PDF format.
+
+  * `Solar_Home_Power_Control_Board_KiCad_Report.pdf`
+
+* `figures/`
+  Project images and screenshots used in the README and report.
+
+  * `schematic/`
+  * `pcb_layout/`
+  * `routing/`
+  * `three_d_view/`
+  * `bench_measurement/`
+
+* `schematics/`
+  KiCad schematic screenshots.
+
+  * `screenshots/`
+
+* `pcb/`
+  PCB layout and 3D board-view screenshots.
+
+  * `layout_screenshots/`
+  * `three_d_render/`
+
+* `fabrication/`
+  Fabrication-related output files, if safe to share publicly.
+
+  * `gerber_output/`
+  * `drill_files/`
+  * `bom/`
+
+* `notes/`
+  Supporting technical notes.
+
+  * `measurement_methodology.md`
+  * `result_traceability.md`
+
 
 # Key Results:
 
